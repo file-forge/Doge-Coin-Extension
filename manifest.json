@@ -1,0 +1,14 @@
+{
+  "name": "Doge Coin Price Tracker",
+  "description": "",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "popup.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "doge.png"
+  }
+}
